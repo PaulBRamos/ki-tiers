@@ -54,7 +54,7 @@
             { name: SPINAL,      score:  },
             { name: THUNDER,     score:  },
             { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: TUSK,        score:  }
         ],
         reference: "@Zerg_Killer"
     };
@@ -84,7 +84,7 @@
             { name: SPINAL,      score: 4 },
             { name: THUNDER,     score: 5.5 },
             { name: TJ_COMBO,    score: 4.5 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@F3Sleep"
     };
@@ -114,7 +114,7 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 6 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 6 },
+            { name: TUSK,        score: 6 }
         ],
         reference: "@SeaDragonKI",
     };
@@ -144,7 +144,7 @@
             { name: SPINAL,      score:  },
             { name: THUNDER,     score:  },
             { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: TUSK,        score:  }
         ],
         reference: "@swordsman09",
     };
@@ -174,7 +174,7 @@
             { name: SPINAL,      score: 5.5 },
             { name: THUNDER,     score: 5.5 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 5.5 },
+            { name: TUSK,        score: 5.5 }
         ],
         reference: "@CircaNicky",
     };
@@ -204,67 +204,67 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 5.5 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 6 },
+            { name: TUSK,        score: 6 }
         ],
         reference: "@TheWaterhorses",
     };
 
     matchups[GARGOS] = {
         matchups: [
-            { name: AGANOS,      score:  },
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: CINDER,      score:  },
-            { name: FULGORE,     score:  },
-            { name: GLACIUS,     score:  },
-            { name: HISAKO,      score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RASH,        score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SADIRA,      score:  },
-            { name: SHADOW_JAGO, score:  },
-            { name: SPINAL,      score:  },
-            { name: THUNDER,     score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: AGANOS,      score: 4.5 },
+            { name: ARBITER,     score: 4.5 },
+            { name: ARIA,        score: 4 },
+            { name: CINDER,      score: 5 },
+            { name: FULGORE,     score: 4 },
+            { name: GLACIUS,     score: 5 },
+            { name: HISAKO,      score: 4 },
+            { name: JAGO,        score: 5 },
+            { name: KANRA,       score: 5 },
+            { name: KIMWU,       score: 5 },
+            { name: MAYA,        score: 5 },
+            { name: MIRA,        score: 5 },
+            { name: OMEN,        score: 5 },
+            { name: ORCHID,      score: 5 },
+            { name: RAAM,        score: 6 },
+            { name: RASH,        score: 4.5 },
+            { name: RIPTOR,      score: 5 },
+            { name: SABREWULF,   score: 5.5 },
+            { name: SADIRA,      score: 6 },
+            { name: SHADOW_JAGO, score: 4.5 },
+            { name: SPINAL,      score: 4.5 },
+            { name: THUNDER,     score: 5 },
+            { name: TJ_COMBO,    score: 6 },
+            { name: TUSK,        score: 4 }
         ],
         reference: "@llRicoSuavell",
     };
         
     matchups[HISAKO] = {
         matchups: [
-            { name: AGANOS,      score:  },
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: CINDER,      score:  },
-            { name: FULGORE,     score:  },
-            { name: GARGOS,      score:  },
-            { name: GLACIUS,     score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RASH,        score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SADIRA,      score:  },
-            { name: SHADOW_JAGO, score:  },
-            { name: SPINAL,      score:  },
-            { name: THUNDER,     score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: AGANOS,      score: 6 },
+            { name: ARBITER,     score: 6 },
+            { name: ARIA,        score: 3 },
+            { name: CINDER,      score: 5 },
+            { name: FULGORE,     score: 4 },
+            { name: GARGOS,      score: 5 },
+            { name: GLACIUS,     score: 6 },
+            { name: JAGO,        score: 4.5 },
+            { name: KANRA,       score: 6 },
+            { name: KIMWU,       score: 6 },
+            { name: MAYA,        score: 5 },
+            { name: MIRA,        score: 6 },
+            { name: OMEN,        score: 5 },
+            { name: ORCHID,      score: 5 },
+            { name: RAAM,        score: 5 },
+            { name: RASH,        score: 5 },
+            { name: RIPTOR,      score: 4 },
+            { name: SABREWULF,   score: 5 },
+            { name: SADIRA,      score: 4 },
+            { name: SHADOW_JAGO, score: 5 },
+            { name: SPINAL,      score: 5 },
+            { name: THUNDER,     score: 4 },
+            { name: TJ_COMBO,    score: 6 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@yofrankthehuman",
     };
@@ -294,7 +294,7 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 5 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@Thompxsonn",
     };
@@ -324,7 +324,7 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 7 },
+            { name: TUSK,        score: 7 }
         ],
         reference: "@Fubuki142",
     };
@@ -354,7 +354,7 @@
             { name: SPINAL,      score: 6 },
             { name: THUNDER,     score: 4 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 4 },
+            { name: TUSK,        score: 4 }
         ],
         reference: "@CrazyLCD",
     };  
@@ -384,7 +384,7 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 5 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@c88pinkdiamond",
     };  
@@ -414,7 +414,7 @@
             { name: SPINAL,      score: 6 },
             { name: THUNDER,     score: 6 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 4 },
+            { name: TUSK,        score: 4 }
         ],
         reference: "@TheAmenty",
     };    
@@ -445,7 +445,7 @@
             { name: SPINAL,      score: 7 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@Skate_KI",
     };    
@@ -475,7 +475,7 @@
             { name: SPINAL,      score: 4 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 7 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@GnarlyFeats",
     };    
@@ -505,7 +505,7 @@
             { name: SPINAL,      score: 6 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 4 },
+            { name: TUSK,        score: 4 }
         ],
         reference: "@LetalisVenator",
     };
@@ -535,7 +535,7 @@
             { name: SPINAL,      score:  },
             { name: THUNDER,     score:  },
             { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: TUSK,        score:  }
         ],
         reference: "@menzokombat",
     };
@@ -565,7 +565,7 @@
             { name: SPINAL,      score: 5.5 },
             { name: THUNDER,     score: 4 },
             { name: TJ_COMBO,    score: 5 },
-            { name: TUSK,        score: 6 },
+            { name: TUSK,        score: 6 }
         ],
         reference: "@Fiyah_Liger",
     };
@@ -595,7 +595,7 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 4 },
             { name: TJ_COMBO,    score: 5 },
-            { name: TUSK,        score: 3 },
+            { name: TUSK,        score: 3 }
         ],
         reference: "@mutinygrief",
     };
@@ -626,7 +626,7 @@
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 4 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@xCupcakeNS",
     };
@@ -656,7 +656,7 @@
             { name: SPINAL,      score:  },
             { name: THUNDER,     score:  },
             { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: TUSK,        score:  }
         ],
         reference: "@YiffyShonryu",
     };  
@@ -686,37 +686,37 @@
             { name: SHADOW_JAGO, score: 5 },
             { name: THUNDER,     score: 4 },
             { name: TJ_COMBO,    score: 6 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@XiBassiX",
     }; 
 
     matchups[THUNDER] = {
         matchups: [
-            { name: AGANOS,      score:  },
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: CINDER,      score:  },
-            { name: GARGOS,      score:  },
-            { name: GLACIUS,     score:  },
-            { name: FULGORE,     score:  },
-            { name: HISAKO,      score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RASH,        score:  },
-            { name: SADIRA,      score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SHADOW_JAGO, score:  },
-            { name: SPINAL,      score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  },
+            { name: AGANOS,      score: 5 },
+            { name: ARBITER,     score: 5 },
+            { name: ARIA,        score: 4 },
+            { name: CINDER,      score: 5 },
+            { name: GARGOS,      score: 4 },
+            { name: GLACIUS,     score: 5 },
+            { name: FULGORE,     score: 4 },
+            { name: HISAKO,      score: 5 },
+            { name: JAGO,        score: 5 },
+            { name: KANRA,       score: 5 },
+            { name: KIMWU,       score: 6 },
+            { name: MAYA,        score: 6 },
+            { name: MIRA,        score: 5 },
+            { name: OMEN,        score: 4 },
+            { name: ORCHID,      score: 5 },
+            { name: RAAM,        score: 5 },
+            { name: RASH,        score: 5 },
+            { name: RIPTOR,      score: 6 },
+            { name: SABREWULF,   score: 5 },
+            { name: SADIRA,      score: 5 },
+            { name: SHADOW_JAGO, score: 4 },
+            { name: SPINAL,      score: 6 },
+            { name: TJ_COMBO,    score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@_shintristan",
     };
@@ -746,7 +746,7 @@
             { name: SHADOW_JAGO, score: 5 },
             { name: SPINAL,      score: 3 },
             { name: THUNDER,     score: 4 },
-            { name: TUSK,        score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@DevilMayCare4",
     };      
@@ -776,7 +776,7 @@
             { name: SHADOW_JAGO, score: 5 },
             { name: SPINAL,      score: 5 },
             { name: THUNDER,     score: 5 },
-            { name: TJ_COMBO,    score: 5 },
+            { name: TJ_COMBO,    score: 5 }
         ],
         reference: "@TheDaytonJ",
     }; 
