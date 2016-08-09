@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana;
+}
+
+#app {
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.main-panel {
+    /*outline: 1px solid red;*/
+    display: inline-block;
+}
+
+
+.tier-container {
+    width: 865px;
+    background: #000;
+    padding: 10px;
+    clear: both;
+}
+
+.tier-row {
+    background: #1a1a1a;
+    margin: 5px;
+}
+
+.tier-label-container {
+    border-radius: 1px;
+    position: relative;
+    top: 3px;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.tier-label {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tier-chars {
+    position: relative;
+    left: 10px;
+}
+
+.char-image {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.char-image:hover {
+    -webkit-filter: brightness(150%);
+}
+
+
+/* Side Panel */
+.info-side-panel {
+    outline: 1px solid blue;
+    width: 500px;
+    display: inline-block;
+}

@@ -27,39 +27,39 @@
         TJ_COMBO = "TJ Combo",
         TUSK = "Tusk";
 
-    window.matchups = {};
+    window.characters = {};
 
-    matchups[AGANOS] = {
+    characters[AGANOS] = {
         matchups: [
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: CINDER,      score:  },
-            { name: FULGORE,     score:  },
-            { name: GARGOS,      score:  },
-            { name: GLACIUS,     score:  },
-            { name: HISAKO,      score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RASH,        score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SADIRA,      score:  },
-            { name: SHADOW_JAGO, score:  },
-            { name: SPINAL,      score:  },
-            { name: THUNDER,     score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  }
+            { name: ARBITER,     score: 4.5 },
+            { name: ARIA,        score: 4.5 },
+            { name: CINDER,      score: 5.5 },
+            { name: FULGORE,     score: 4 },
+            { name: GARGOS,      score: 5.5 },
+            { name: GLACIUS,     score: 6 },
+            { name: HISAKO,      score: 4 },
+            { name: JAGO,        score: 5.5 },
+            { name: KANRA,       score: 5 },
+            { name: KIMWU,       score: 7 },
+            { name: MAYA,        score: 4 },
+            { name: MIRA,        score: 5 },
+            { name: OMEN,        score: 4.5 },
+            { name: ORCHID,      score: 6 },
+            { name: RAAM,        score: 6 },
+            { name: RASH,        score: 5 },
+            { name: RIPTOR,      score: 4 },
+            { name: SABREWULF,   score: 6 },
+            { name: SADIRA,      score: 5 },
+            { name: SHADOW_JAGO, score: 4.5 },
+            { name: SPINAL,      score: 5 },
+            { name: THUNDER,     score: 4 },
+            { name: TJ_COMBO,    score: 6 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@Zerg_Killer"
     };
 
-    matchups[ARBITER] = {
+    characters[ARBITER] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARIA,        score: 5 },
@@ -89,7 +89,7 @@
         reference: "@F3Sleep"
     };
 
-    matchups[ARIA] = {
+    characters[ARIA] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 3 },
@@ -119,37 +119,37 @@
         reference: "@SeaDragonKI",
     };
 
-    matchups[CINDER] = {
+    characters[CINDER] = {
         matchups: [
-            { name: AGANOS,      score:  },
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: FULGORE,     score:  },
-            { name: GARGOS,      score:  },
-            { name: GLACIUS,     score:  },
-            { name: HISAKO,      score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RASH,        score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SADIRA,      score:  },
-            { name: SHADOW_JAGO, score:  },
-            { name: SPINAL,      score:  },
-            { name: THUNDER,     score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  }
+            { name: AGANOS,      score: 6 },
+            { name: ARBITER,     score: 6 },
+            { name: ARIA,        score: 5 },
+            { name: FULGORE,     score: 5 },
+            { name: GARGOS,      score: 4 },
+            { name: GLACIUS,     score: 5 },
+            { name: HISAKO,      score: 5 },
+            { name: JAGO,        score: 4 },
+            { name: KANRA,       score: 6 },
+            { name: KIMWU,       score: 6 },
+            { name: MAYA,        score: 5 },
+            { name: MIRA,        score: 6 },
+            { name: OMEN,        score: 5 },
+            { name: ORCHID,      score: 5 },
+            { name: RAAM,        score: 5 },
+            { name: RASH,        score: 5 },
+            { name: RIPTOR,      score: 5 },
+            { name: SABREWULF,   score: 4 },
+            { name: SADIRA,      score: 6 },
+            { name: SHADOW_JAGO, score: 5 },
+            { name: SPINAL,      score: 5 },
+            { name: THUNDER,     score: 5 },
+            { name: TJ_COMBO,    score: 5.5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@swordsman09",
     };
 
-    matchups[FULGORE] = {
+    characters[FULGORE] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 5.5 },
@@ -170,7 +170,7 @@
             { name: RIPTOR,      score: 6 },
             { name: SABREWULF,   score: 6 },
             { name: SADIRA,      score: 6 },
-            { name: SHADOW_JAGO, score:  },
+            { name: SHADOW_JAGO, score: 6 },
             { name: SPINAL,      score: 5.5 },
             { name: THUNDER,     score: 5.5 },
             { name: TJ_COMBO,    score: 6 },
@@ -179,7 +179,7 @@
         reference: "@CircaNicky",
     };
 
-    matchups[GLACIUS] = {
+    characters[GLACIUS] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 5 },
@@ -209,7 +209,7 @@
         reference: "@TheWaterhorses",
     };
 
-    matchups[GARGOS] = {
+    characters[GARGOS] = {
         matchups: [
             { name: AGANOS,      score: 4.5 },
             { name: ARBITER,     score: 4.5 },
@@ -239,7 +239,7 @@
         reference: "@llRicoSuavell",
     };
         
-    matchups[HISAKO] = {
+    characters[HISAKO] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 6 },
@@ -269,7 +269,7 @@
         reference: "@yofrankthehuman",
     };
 
-    matchups[JAGO] = {
+    characters[JAGO] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 5 },
@@ -299,7 +299,7 @@
         reference: "@Thompxsonn",
     };
 
-    matchups[KANRA] = {
+    characters[KANRA] = {
         matchups: [
             { name: AGANOS,      score: 4 },
             { name: ARBITER,     score: 5 },
@@ -329,13 +329,13 @@
         reference: "@Fubuki142",
     };
 
-    matchups[KIMWU] = {
+    characters[KIMWU] = {
         matchups: [
             { name: AGANOS,      score: 2 },
             { name: ARBITER,     score: 5 },
             { name: ARIA,        score: 4 },
             { name: CINDER,      score: 5 },
-            { name: GARGOS,      score:  },
+            { name: GARGOS,      score: 5 },
             { name: GLACIUS,     score: 3 },
             { name: FULGORE,     score: 3 },
             { name: HISAKO,      score: 4 },
@@ -345,7 +345,7 @@
             { name: MIRA,        score: 5 },
             { name: OMEN,        score: 6 },
             { name: ORCHID,      score: 4 },
-            { name: RAAM,        score:  },
+            { name: RAAM,        score: 5 },
             { name: RASH,        score: 4 },
             { name: RIPTOR,      score: 4 },
             { name: SABREWULF,   score: 4 },
@@ -359,7 +359,7 @@
         reference: "@CrazyLCD",
     };  
 
-    matchups[MAYA] = {
+    characters[MAYA] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 5 },
@@ -389,7 +389,7 @@
         reference: "@c88pinkdiamond",
     };  
 
-    matchups[MIRA] = {
+    characters[MIRA] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 4 },
@@ -420,7 +420,7 @@
     };    
         
     
-    matchups[OMEN] = {
+    characters[OMEN] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 4 },
@@ -450,7 +450,7 @@
         reference: "@Skate_KI",
     };    
         
-    matchups[ORCHID] = {
+    characters[ORCHID] = {
         matchups: [
             { name: AGANOS,      score: 4 },
             { name: ARBITER,     score: 4 },
@@ -480,7 +480,7 @@
         reference: "@GnarlyFeats",
     };    
 
-    matchups[RAAM] = {
+    characters[RAAM] = {
         matchups: [
             { name: AGANOS,      score: 4 },
             { name: ARBITER,     score: 5 },
@@ -510,37 +510,37 @@
         reference: "@LetalisVenator",
     };
 
-    matchups[RASH] = {
+    characters[RASH] = {
         matchups: [
-            { name: AGANOS,      score:  },
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: CINDER,      score:  },
-            { name: GARGOS,      score:  },
-            { name: GLACIUS,     score:  },
-            { name: FULGORE,     score:  },
-            { name: HISAKO,      score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SADIRA,      score:  },
-            { name: SHADOW_JAGO, score:  },
-            { name: SPINAL,      score:  },
-            { name: THUNDER,     score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  }
+            { name: AGANOS,      score: 6 },
+            { name: ARBITER,     score: 5 },
+            { name: ARIA,        score: 5 },
+            { name: CINDER,      score: 5 },
+            { name: GARGOS,      score: 5 },
+            { name: GLACIUS,     score: 5 },
+            { name: FULGORE,     score: 5 },
+            { name: HISAKO,      score: 5 },
+            { name: JAGO,        score: 5 },
+            { name: KANRA,       score: 6 },
+            { name: KIMWU,       score: 6 },
+            { name: MAYA,        score: 5 },
+            { name: MIRA,        score: 5 },
+            { name: OMEN,        score: 5 },
+            { name: ORCHID,      score: 6 },
+            { name: RAAM,        score: 5 },
+            { name: RIPTOR,      score: 5 },
+            { name: SABREWULF,   score: 5 },
+            { name: SADIRA,      score: 6 },
+            { name: SHADOW_JAGO, score: 5 },
+            { name: SPINAL,      score: 5 },
+            { name: THUNDER,     score: 5 },
+            { name: TJ_COMBO,    score: 6 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@menzokombat",
     };
 
-     matchups[RIPTOR] = {
+     characters[RIPTOR] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 5 },
@@ -570,7 +570,7 @@
         reference: "@Fiyah_Liger",
     };
 
-    matchups[SADIRA] = {
+    characters[SADIRA] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 5 },
@@ -600,8 +600,7 @@
         reference: "@mutinygrief",
     };
 
-
-    matchups[SABREWULF] = {
+    characters[SABREWULF] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 5 },
@@ -631,37 +630,37 @@
         reference: "@xCupcakeNS",
     };
 
-    matchups[SHADOW_JAGO] = {
+    characters[SHADOW_JAGO] = {
         matchups: [
-            { name: AGANOS,      score:  },
-            { name: ARBITER,     score:  },
-            { name: ARIA,        score:  },
-            { name: CINDER,      score:  },
-            { name: GARGOS,      score:  },
-            { name: GLACIUS,     score:  },
-            { name: FULGORE,     score:  },
-            { name: HISAKO,      score:  },
-            { name: JAGO,        score:  },
-            { name: KANRA,       score:  },
-            { name: KIMWU,       score:  },
-            { name: MAYA,        score:  },
-            { name: MIRA,        score:  },
-            { name: OMEN,        score:  },
-            { name: ORCHID,      score:  },
-            { name: RAAM,        score:  },
-            { name: RASH,        score:  },
-            { name: RIPTOR,      score:  },
-            { name: SABREWULF,   score:  },
-            { name: SADIRA,      score:  },
-            { name: SPINAL,      score:  },
-            { name: THUNDER,     score:  },
-            { name: TJ_COMBO,    score:  },
-            { name: TUSK,        score:  }
+            { name: AGANOS,      score: 5 },
+            { name: ARBITER,     score: 5 },
+            { name: ARIA,        score: 5 },
+            { name: CINDER,      score: 5 },
+            { name: GARGOS,      score: 5 },
+            { name: GLACIUS,     score: 5 },
+            { name: FULGORE,     score: 5 },
+            { name: HISAKO,      score: 5 },
+            { name: JAGO,        score: 5 },
+            { name: KANRA,       score: 5 },
+            { name: KIMWU,       score: 5 },
+            { name: MAYA,        score: 5 },
+            { name: MIRA,        score: 5 },
+            { name: OMEN,        score: 5 },
+            { name: ORCHID,      score: 5 },
+            { name: RAAM,        score: 5 },
+            { name: RASH,        score: 5 },
+            { name: RIPTOR,      score: 5 },
+            { name: SABREWULF,   score: 5 },
+            { name: SADIRA,      score: 5 },
+            { name: SPINAL,      score: 5 },
+            { name: THUNDER,     score: 5 },
+            { name: TJ_COMBO,    score: 5 },
+            { name: TUSK,        score: 5 }
         ],
         reference: "@YiffyShonryu",
     };  
 
-    matchups[SPINAL] = {
+    characters[SPINAL] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 5 },
@@ -691,7 +690,7 @@
         reference: "@XiBassiX",
     }; 
 
-    matchups[THUNDER] = {
+    characters[THUNDER] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 5 },
@@ -721,7 +720,7 @@
         reference: "@_shintristan",
     };
 
-    matchups[TJ_COMBO] = {
+    characters[TJ_COMBO] = {
         matchups: [
             { name: AGANOS,      score: 6 },
             { name: ARBITER,     score: 4 },
@@ -751,7 +750,7 @@
         reference: "@DevilMayCare4",
     };      
 
-    matchups[TUSK] = {
+    characters[TUSK] = {
         matchups: [
             { name: AGANOS,      score: 5 },
             { name: ARBITER,     score: 5 },
