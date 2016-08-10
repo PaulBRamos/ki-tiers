@@ -13,9 +13,9 @@
     loadTemplate("tpl/tier.tpl").done(function(data) {
         console.log("Done loading tier template");
         tierTemplate = Handlebars.compile(data);
-        loadTemplate("tpl/info.tpl").done(function() {
-            console.log("Done loading info template");
-            infoTemplate = Handlebars.compile(data);
+        loadTemplate("tpl/info.tpl").done(function(infoData) {
+            console.log("Done loading info template", infoData);
+            infoTemplate = Handlebars.compile(infoData);
             main();
         });
     });
@@ -36,14 +36,18 @@
         renderTier("D", dTierChars);
         renderTier("F", fTierChars);
 
-        $(".char-image").on("click", function(e) {
+        $(".load-char").on("click", function(e) {
             var name = $(e.target).data("name");
             renderInfo(name);
+        });
+
+        $(".info-button").on("click", function(e) {
+            $(".description-panel").fadeToggle();
         });
     }
 
     function loadTemplate(templateName) {
-        return $.get("tpl/tier.tpl");
+        return $.get(templateName);
     }
 
     // trust me, I'm sure this can be optimized, but it doesn't matter.
@@ -137,7 +141,6 @@
                 fTierChars.push(char);
             }
         });
-        console.log(charArray);
     }
 
     function renderTier(name, tier) {
@@ -149,9 +152,31 @@
         );
     }
 
+    Handlebars.registerHelper("isWinning", function(value, options) {
+        if (10 - value.score < 5) {
+            return options.fn(this);
+        }
+    });
+
+    Handlebars.registerHelper("isLosing", function(value, options) {
+        if (10 - value.score > 5) {
+            return options.fn(this);
+        }
+    });
+
+    Handlebars.registerHelper("isEven", function(value, options) {
+        if (10 - value.score == 5) {
+            return options.fn(this);
+        }
+    });
+
     Handlebars.registerHelper("toLower", function(value) {
-        console.log(value);
         return value.toLowerCase().replace(" ", "_");
+    });
+
+    Handlebars.registerHelper("getMatchupFromScore", function(score){
+        var otherSide = 10 - score;
+        return score +"-" +otherSide;
     });
 
     Handlebars.registerHelper("tierColor", function(tierName) {
@@ -171,8 +196,47 @@
         }
     });
 
+    Handlebars.registerHelper("getTwitterWithoutAt", function(value) {
+        return value.replace("@", "");
+    });
+
     function renderInfo(name) {
         console.log(characters[name]);
+
+        score = getOtherOpinion(name);
+
+        score = score * 100;
+        score = score + "%";
+
+        $(".info-side-panel").html(infoTemplate({
+            name: name,
+            character: characters[name],
+            reference: characters[name].reference,
+            score: score
+        }));
+    }
+
+    function getOtherOpinion(name) {
+        var totalScore = 0;
+
+        for (var match in characters[name].matchups) {
+            var charMatchup = characters[name].matchups[match];
+            //console.log(charMatchup.name);
+
+            for (var i in characters[charMatchup.name].matchups) {
+                var charToCompare = characters[charMatchup.name].matchups[i];
+                
+                if (charToCompare.name == name) {
+                    //console.log(charToCompare.score);
+                    if (charToCompare.score == charMatchup.score) {
+                        totalScore++;
+                    }
+                }
+            }
+        }
+
+        return totalScore / 25;
+
     }
 
     // source https://derickbailey.com/2014/09/21/calculating-standard-deviation-with-array-map-and-array-reduce-in-javascript/

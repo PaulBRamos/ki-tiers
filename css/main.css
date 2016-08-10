@@ -1,10 +1,64 @@
+html {
+    background: url(../img/mira_bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
-    font-family: Verdana;
+    font-family: Helvetica;
+    color: #Fff;
+    position: relative;
+}
+
+.info-button {
+    width: 64px;
+    height: 64px;
+    background: url("../img/info_white_64.png") no-repeat;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.info-button:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.description-panel .small-heading {
+    font-size: 16px;
+}
+
+.sub-heading {
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+}
+
+.description-panel {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: none;
+    border: 1px solid black;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    z-index: 3;
 }
 
 #app {
     margin: 0 auto;
-    white-space: nowrap;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
 }
 
 .main-panel {
@@ -18,6 +72,7 @@ body {
     background: #000;
     padding: 10px;
     clear: both;
+    border-radius: 4px;
 }
 
 .tier-row {
@@ -40,6 +95,7 @@ body {
     left: 30px;
     font-weight: bold;
     font-size: 20px;
+    color: #000;
 }
 
 .tier-chars {
@@ -57,10 +113,56 @@ body {
     -webkit-filter: brightness(150%);
 }
 
+.char-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tier-number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: #000;
+    border-radius: 20px;
+    z-index: 2;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
 
 /* Side Panel */
 .info-side-panel {
-    outline: 1px solid blue;
+    background: black;
     width: 500px;
     display: inline-block;
+    padding: 20px;
+}
+
+.char-name {
+    display: inline-block;
+    font-size: 86px;
+}
+
+.matchup-list {
+    background: #1a1a1a;;
+    min-height: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1463px) {
+  #app {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .info-side-panel {
+    display: block;
+    margin-top: 20px;
+  }
 }

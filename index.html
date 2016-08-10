@@ -6,9 +6,30 @@
         <title>KI Community Driven Tiers</title>
 
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.3.2/hint.min.css">
+
     </head>
 
     <body>
+
+        <div class="description-panel">
+            <div class="small-heading">
+                Don't you love match-up charts? The problem is no single person has the complete knowledge
+                to generate an accurate chart for an entire game. This chart is an effort to bridge that gap of kknowledge.
+                <br><br>
+                How this works:
+                <ul>
+                    <li>Each character's data is backed with a MU chart provided by a character specialist</li>
+                    <li>Tiers are calculated using 2x the standard deviation as upper and lower bounds (S and F tier)</li>
+                    <li>Overall character score is based on sum of winning, losing, and even matchups</li>
+                    <li>The overlayed number if the character's position on the overall tier list</li>
+                    <li>Hover over icons to show specific matchup numbers</li>
+                    <li>Confidence level is the percentage of other contributers whose data agrees</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info-button"></div>
 
         <div id="app">
             <div class="main-panel">
@@ -16,8 +37,9 @@
 
                 </div>
             </div>
+
             <div class="info-side-panel">
-                Side Panel
+                Select a character portrait to load detailed character matchup data.
             </div>
         </div>
 
