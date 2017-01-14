@@ -214,6 +214,8 @@
             reference: characters[name].reference,
             score: score
         }));
+
+        $(".info-side-panel").show();
     }
 
     function getOtherOpinion(name) {

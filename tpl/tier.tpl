@@ -7,7 +7,7 @@
             {{#each chars}}
                 <div class="char-container" style="position: relative;">
                     {{!-- <span class="tier-number">{{@index}}</span> --}}
-                    <img class="char-image load-char" data-name="{{name}}" src="img/chars/ki3_{{toLower name}}.gif">
+                    <img class="char-image load-char" data-name="{{name}}" src="img/chars/{{toLower name}}.png">
                 </div>
             {{/each}}
         </div>

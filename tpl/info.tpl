@@ -1,11 +1,11 @@
-<img class="char-image" src="img/chars/ki3_{{toLower this.name}}.gif">
+<img class="char-image main-char-image" src="img/chars/{{toLower this.name}}.png">
 <div class="char-name">{{name}}</div>
 <div class="small-heading">Winning Match-ups</div>
 <div class="matchup-list">
     {{#each character.matchups}}
         {{#isWinning this}}
             <span class="hint--top" aria-label="{{getMatchupFromScore this.score}}">
-                <img class="char-image" width="40" src="img/chars/ki3_{{toLower this.name}}.gif">
+                <img class="char-image" src="img/chars/{{toLower this.name}}.png">
             </span>
         {{/isWinning}}
     {{/each}}
@@ -15,7 +15,7 @@
     {{#each character.matchups}}
         {{#isEven this}}
             <span class="hint--top" aria-label="{{getMatchupFromScore this.score}}">
-                <img class="char-image" width="40" src="img/chars/ki3_{{toLower this.name}}.gif">
+                <img class="char-image" src="img/chars/{{toLower this.name}}.png">
             </span>
         {{/isEven}}
     {{/each}}
@@ -25,7 +25,7 @@
     {{#each character.matchups}}
         {{#isLosing this}}
             <span class="hint--top" aria-label="{{getMatchupFromScore this.score}}">
-                <img class="char-image" width="40" src="img/chars/ki3_{{toLower this.name}}.gif">
+                <img class="char-image" src="img/chars/{{toLower this.name}}.png">
             </span>
         {{/isLosing}}
     {{/each}}
