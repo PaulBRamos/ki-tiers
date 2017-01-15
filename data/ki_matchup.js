@@ -643,7 +643,7 @@
             { name: RIPTOR,      score: 5 },
             { name: SADIRA,      score: 5 },
             { name: SHADOW_JAGO, score: 4 },
-            { name: SPINAL,      score: 6 },
+            { name: SPINAL,      score: 4.5 },
             { name: THUNDER,     score: 5 },
             { name: TJ_COMBO,    score: 6 },
             { name: TUSK,        score: 4 }
