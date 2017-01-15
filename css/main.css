@@ -28,7 +28,6 @@ body {
     color: #000;
     color: #fff;
     top: 0;
-    z-index: 99;
 }
 
 .info-button {
@@ -180,7 +179,7 @@ body {
 
 .char-name {
     display: inline-block;
-    font-size: 5vw;
+    font-size: 7vw;
 }
 
 .matchup-list {
@@ -206,10 +205,14 @@ body {
   .info-side-panel {
     position: absolute;
     background: #000;
-    top: 11vh;
+    top: 1vh;
     left: 5vw;
-    height: 42vh;
+    height: 51vh;
     width: 80vw;
+  }
+
+  .info-side-panel .char-image.main-char-image {
+    width: 10vw;
   }
 
   .info-side-panel .char-image {
@@ -231,6 +234,14 @@ body {
     left: 5vw;
     position: absolute;
     float: left;
+  }
+
+  .small-heading, .sub-heading {
+    font-size: 3vw;
+  }
+
+  .char-name {
+    font-size: 10vw;
   }
 }
 
