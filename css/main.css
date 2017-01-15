@@ -1,5 +1,6 @@
 html {
-    background: url(../img/orchid_bg.png) no-repeat left center fixed; 
+    background: url(../img/orchid_bg.jpg) no-repeat left center fixed; 
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -189,6 +190,14 @@ body {
     margin-bottom: 5px;
 }
 
+.ki-info-graphic {
+    float: left;
+    position: absolute;
+    top: 100%;
+    left: 20vw;
+    width: 60vw;
+}
+
 @media (max-device-width: 800px) {
   .tier-container {
     width: 90vw;
@@ -215,6 +224,13 @@ body {
     height: 8vw;
     width: 8vw;
     font-size: 3vw;
+  }
+
+  .ki-info-graphic {
+    width: 90vw;
+    left: 5vw;
+    position: absolute;
+    float: left;
   }
 }
 
